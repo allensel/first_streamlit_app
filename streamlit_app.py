@@ -40,7 +40,7 @@ streamlit.dataframe(my_data_rows)
 # my_cur.execute("INSERT into fruit_load_list values ('allen')")
 # my_data_rows = my_cur.fetchall()
 # streamlit.dataframe(my_data_rows)
-add_my_fruit=streamlit.text_input("What fruit would you like to add?",jackfruit')
+add_my_fruit=streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write('Thanks',add_my_fruit)                       
 my_cur_execute("insert into fruit_load_list values ("from streamlit')")
 
